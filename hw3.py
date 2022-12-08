@@ -1,0 +1,1 @@
+print({item.split(": ")[0]:item.split(": ")[1] for item in open("data").read().split("\n")})
